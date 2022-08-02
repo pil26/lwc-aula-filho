@@ -1,0 +1,28 @@
+<template>
+	<lightning-card>
+
+		<div class="troca" if:true={visible}>
+			<h1>Trazer Dados da Classe</h1>
+			<p>Nome: {nome}</p>
+			<p>Telefone: {telefone}</p>
+			<p>CPF : {cpf}</p>
+			<p>Idade: {idade}</p>
+		</div>
+		<div class="troca" if:true={visible}>
+			<h1>Outros Dados da Classe</h1>
+			<p>Email: {email}</p>
+			<p>Instagram : {insta}</p>
+			<p>LinkedIN: {lkd}</p>
+		</div>
+		<div class="button1">
+			<!-- Brand variant: Identifies the primary action in a group of buttons -->
+			<lightning-button variant="brand" label="TROCA DIV" title="Primary action" onclick={trocarDiv}
+				class="slds-m-left_x-small"></lightning-button>
+
+			<lightning-button variant="brand" label="ALTERA VALORES" title="Primary action" onclick={alteraValores}
+				class="slds-m-left_x-small"></lightning-button>
+		</div>
+		<c-produto nome="Pasta de Dente" sku="CC-LAT-350"></c-produto>
+		<c-produto nome="Shampoo" sku="CC-LAT-260"></c-produto>
+	</lightning-card>
+</template>

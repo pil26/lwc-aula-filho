@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/pil26.lwc-aula-fork-l6cjq3hr",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve 1IRYwazDUh4i2OmJ5o0T --open"
+  }
+}
